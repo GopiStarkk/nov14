@@ -1,0 +1,10 @@
+aws_region         = "ap-south-1"
+environment        = "prod"
+instance_name      = "prod-ec2"
+ami_id             = "ami-0fedcba9876543210"
+instance_type      = "t3.large"
+vpc_id             = "vpc-0prod123456789"
+subnet_id          = "subnet-0prod987654321"
+key_name           = "prod-keypair"
+root_volume_size   = 100
+allowed_ssh_cidr   = "203.0.113.10/32"

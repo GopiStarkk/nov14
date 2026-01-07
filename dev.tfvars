@@ -1,0 +1,10 @@
+aws_region         = "ap-south-1"
+environment        = "dev"
+instance_name      = "dev-ec2"
+ami_id             = "ami-0abcdef1234567890"
+instance_type      = "t3.micro"
+vpc_id             = "vpc-0abc123456789xyz"
+subnet_id          = "subnet-0123abc456def789"
+key_name           = "dev-keypair"
+root_volume_size   = 30
+allowed_ssh_cidr   = "0.0.0.0/0"
